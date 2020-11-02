@@ -5,6 +5,7 @@ import { useHistory } from 'react-router-dom';
 import formStyles from '../css/forms.module.css';
 import Popup from '../utils/Popup';
 import Header from '../Header';
+import Preloader from '../utils/Preloader';
 
 function CreateVideo() {
 	// TODO:
@@ -263,18 +264,9 @@ function CreateVideo() {
 						<></>
 					)}
 					{uploadState.uploadProgress > 0 ? (
-						<div className={formStyles.uploadProgress}>
-							<div className={formStyles.error}>
-								Upload: {uploadState.uploadProgress}%
-							</div>
-							<button
-								className={formStyles.videoSubmitBtn}
-								type='submit'
-								onClick={handleCancelUpload}
-							>
-								Cancel
-							</button>
-						</div>
+						<div style={{width: '100%', height: '10vh'}}>
+                            <Preloader />
+                        </div>
 					) : (
 						<></>
 					)}

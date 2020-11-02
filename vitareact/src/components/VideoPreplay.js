@@ -47,7 +47,7 @@ function VideoPreplay() {
 			.join('+');
 		const baseurl = `https://www.googleapis.com/youtube/v3/search`;
 		const key = `AIzaSyCZy2OBsSgT6FkZbyefZbZT_-Im11dzsbs`;
-		const maxResults = 10;
+		const maxResults = 8;
 		const url = `${baseurl}?part=snippet&key=${key}&type=video&q=${q},trailer&order=viewCount&maxResults=${maxResults}`;
 
 		// axios.get(url)
@@ -329,7 +329,7 @@ function VideoPreplay() {
 
 						{/* trailers/Extras from youtube */}
 						{/* make a horizontal scroll bar */}
-						<div className={style.detailBanner}>
+						<div className={style.detailBanner} style={{background:'transparent'}}>
 							<h3 style={{ padding: '10px' }}>
 								{' '}
 								Trailers and Extras
