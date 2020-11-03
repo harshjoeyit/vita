@@ -50,14 +50,14 @@ function VideoPreplay() {
 		const maxResults = 8;
 		const url = `${baseurl}?part=snippet&key=${key}&type=video&q=${q},trailer&order=viewCount&maxResults=${maxResults}`;
 
-		// axios.get(url)
-		//     .then(res => {
-		//         setExtras(res.data.items);
-		//         setExtrasLoading(false);
-		//     })
-		//     .catch(err => {
-		//         console.log(err);
-		//     });
+		axios.get(url)
+		    .then(res => {
+		        setExtras(res.data.items);
+		        setExtrasLoading(false);
+		    })
+		    .catch(err => {
+		        console.log(err);
+		    });
 	};
 
 	const setCalculated = async (timeInmins, categoryId) => {
