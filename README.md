@@ -25,7 +25,7 @@ A on demand Video Streaming platform.
 ## Tech Stack
 * **Backend** - Django Rest Framework.
 * **Frontend** - React.js.
-* **Database** - dbsqlite3.
+* **Database** - postgresql.
 * **Video Database** - AWS S3 Bucket.
 * **Payment Gateway** - Braintree.
 
