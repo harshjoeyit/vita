@@ -1,6 +1,7 @@
 # Vita
 A on demand Video Streaming platform.
-## How to run?
+
+### How to run?
 * Clone the Repository.
 * Make a virtual environment.
 * Change directory to `vit-django/` to navigate to the backend directory.
@@ -22,7 +23,20 @@ A on demand Video Streaming platform.
 * Run `npm install` to install all the react dependencies.
 * Run `npm start` to run the frontend server.
 * Now you good to go.
-## Tech Stack
+
+### Features 
+* More than just a movie streaming platform
+* Customized HTML5 Video Player
+* Like, Comment, Flag/Report Videos and Comments
+* Create watchlists and add videos.
+* Trailers and Extras from embedded from Youtube
+* Access to paid plans by buying subscriptions.
+* Fully responsive without any CSS framework
+- Easy to use Admin Panel with full control of the platform.
+* Graphs for Statistics of Users, Revenues & Videos
+* Content reviewing and moderation by Admin.
+
+### Tech Stack
 * **Backend** - Django Rest Framework.
 * **Frontend** - React.js.
 * **Database** - postgresql.
@@ -30,7 +44,7 @@ A on demand Video Streaming platform.
 * **Payment Gateway** - Braintree.
 
 ### Team : webPLASH
-* Aman Tibrewal
+* [Aman Tibrewal](https://github.com/amantibrewal310)
 * Harshit Gangwar
 
 ### A sneak peek
