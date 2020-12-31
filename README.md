@@ -32,3 +32,10 @@ A on demand Video Streaming platform.
 ### Team : webPLASH
 * Aman Tibrewal
 * Harshit Gangwar
+
+### A sneak peek
+<img src="images/one.png" width="500px">
+<img src="images/two.png" width="500px">
+<img src="images/three.png" width="500px">
+<img src="images/four.png" width="500px">
+<img src="images/five.png" width="500px">
