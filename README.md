@@ -1,5 +1,5 @@
 # Vita
-A on demand Video Streaming platform.
+Entertainment Without limits
 
 ### How to run?
 * Clone the Repository.
