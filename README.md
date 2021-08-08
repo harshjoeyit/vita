@@ -1,9 +1,11 @@
 # Vita
 Entertainment Without limits
 
+### Website [Link](https://vita-stream.herokuapp.com/)
+
 ### Video [Link](https://drive.google.com/file/d/1quELmk67OJuVeHr1-x4shdxQJ8U5i-kK/view?usp=sharing)
 
-### How to run?
+### How to run locally?
 * Clone the Repository.
 * Make a virtual environment.
 * Change directory to `vit-django/` to navigate to the backend directory.
