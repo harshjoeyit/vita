@@ -57,8 +57,8 @@ Entertainment Without limits
 <img src="images/three.png" width="100%">
 <img src="images/four.png" width="100%">
 <img src="images/five.png" width="100%">
-<img src="images/six.jpeg" width="60%">
-<img src="images/seven.jpeg" width="60%">
-<img src="images/eight.jpeg" width="60%">
-<img src="images/nine.jpeg" width="60%">
-<img src="images/ten.jpeg" width="60%">
+<img src="images/six.jpeg" width="30%">
+<img src="images/seven.jpeg" width="30%">
+<img src="images/eight.jpeg" width="30%">
+<img src="images/nine.jpeg" width="30%">
+<img src="images/ten.jpeg" width="30%">
